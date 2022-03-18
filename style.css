@@ -1,0 +1,60 @@
+
+.imagename{
+  font-size: medium;
+  font-family: fantasy;
+  color: firebrick;
+  text-align: center;
+
+}
+#topic{
+  font-size: larger;
+  font-family: Arial ;
+  font-weight: 900;
+  color: darkred;
+  text-align: center;
+  margin-top: 6px;
+
+}
+.grid-container{
+  color: whitesmoke;
+  justify-content: space-evenly;
+  display: grid;
+  gap: 20px 60px;
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.img-section > div{
+  place-items: center;
+  width: 100%;
+  border: 10px;
+
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  margin: 20px;
+}
+
+.img-container > img{
+  height: 280px;
+  object-fit: cover;
+}
+.img-section > div > .img-container > img{
+  width: 100%;
+  height:100% ;
+  object-fit: cover;
+}
+
+.img-section > div > p{
+  margin: 1em;
+  
+}
+.img-tittle-container{
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  
+}
